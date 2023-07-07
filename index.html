@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style.css">
+        <title>Document</title>
+    </head>
+    <body>
+        <div id="recentmessages"></div>
+
+        <div id="newmessage">
+            <p style="margin-bottom: 15px; text-align: center;"><b><u>Add new message:</u></b></p>
+            <form id="addmessage">
+                <label>
+                    Your name:
+                    <input type="text" id="username" required>
+                </label>
+                <br>
+                <label>
+                    Your message:
+                    <textarea id="message" cols="30" rows="2" required></textarea>
+                </label>
+                <br>
+                <input type="submit" id="sendbutton" value="Send message">
+            </form>
+        </div>
+
+        <script src="script.js"></script>
+    </body>
+</html>

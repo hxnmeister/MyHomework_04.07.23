@@ -1,0 +1,57 @@
+*
+{
+    margin: 0;
+    padding: 0;
+
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 14px;
+    background-color: wheat;
+}
+label
+{
+    vertical-align: top;
+}
+input, textarea
+{
+    background-color: white;
+    border: 1px solid;
+    border-radius: 5px;
+    margin-bottom: 5px;
+    margin-right: 14.5px;
+    width: 93.5%;
+}
+input[type="submit"]
+{
+    width: 99.3%;
+    padding: 5px 0px;
+}
+label
+{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 10px;
+}
+
+#sendbutton
+{
+    background-color: gainsboro;
+}
+#recentmessages
+{
+    margin: 15px;
+}
+
+.title
+{
+    display: flex;
+    justify-content: space-between;
+}
+.title, .text
+{
+    padding: 10px;
+    border: 1px solid;
+}
+.text
+{
+    border-top: none;
+}

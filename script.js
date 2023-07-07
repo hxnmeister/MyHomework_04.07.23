@@ -22,7 +22,7 @@ const newMessage = (event) =>
             <p>${new Date().toLocaleString()}</p>
         </div>
         <div class="text">
-            <p>${messageToChat.value}</p>
+            <p>${messageToChat.value.replace(/\n/g, '<br/>')}</p>
         </div>
     `
 
@@ -101,4 +101,46 @@ document.addEventListener("click", (event) =>
     if(event.target.id === "next") displayQuestion();
     else if(event.target.id === "finish") showResult();
 });*/
+
+/*Завдання №3
+const textField = document.getElementById("texttochange");
+const form = document.forms.texteditor;
+const fontStyle = form.fontstyle;
+const fontJustify = form.justify;
+const textToEdit = form.text;
+
+const changeText = (event) => 
+{
+  event.preventDefault();
+
+  textField.innerHTML = 
+  `
+        <div id="resultfield">
+            <h2>Result:</h2>
+            <div id="changedtext">
+                <p>${textToEdit.value.replace(/\n/g, '<br/>')}</p>
+            </div>
+        </div>
+    `;
+
+  const editingText = document.getElementById("changedtext");
+
+  editingText.style.textAlign = Array.from(fontJustify).find((x) => x.checked).value;
+  Array.from(fontStyle).filter((x) => x.checked).map((x) => 
+  {
+    switch (x.value) 
+    {
+      case "bold":
+        editingText.style.fontWeight = x.value;
+        break;
+      case "underline":
+        editingText.style.textDecoration = x.value;
+        break;
+      case "italic":
+        editingText.style.fontStyle = x.value;
+    }
+  });
+};
+
+form.addEventListener("submit", changeText);*/
 

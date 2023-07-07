@@ -80,3 +80,40 @@ button
     margin: 15px;
 }*/
 
+/*Завдання №3
+*
+{
+    margin: 0;
+    padding: 0;
+
+    background-color: wheat;
+}
+textarea
+{
+    background-color: white;
+    word-break: break-all;
+}
+input[type="submit"]
+{
+    background-color: gainsboro;
+    border: 1px solid;
+    padding: 5px;
+}
+input[type="checkbox"], input[type="radio"]
+{
+    margin-left: 5px;
+}
+
+#showchanges, #text
+{
+    width: 100%;
+}
+#texttochange
+{
+    margin: 5px 35px;
+}
+#changedtext
+{
+    border: 2px solid;
+}*/
+

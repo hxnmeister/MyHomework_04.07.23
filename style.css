@@ -1,3 +1,4 @@
+/*Завдання №1
 *
 {
     margin: 0;
@@ -24,6 +25,7 @@ input[type="submit"]
 {
     width: 99.3%;
     padding: 5px 0px;
+    background-color: gainsboro;
 }
 label
 {
@@ -32,10 +34,6 @@ label
     margin-left: 10px;
 }
 
-#sendbutton
-{
-    background-color: gainsboro;
-}
 #recentmessages
 {
     margin: 15px;
@@ -54,4 +52,31 @@ label
 .text
 {
     border-top: none;
+}*/
+
+/*Завдання №2
+*
+{
+    margin: 0;
+    padding: 0;
+
+    background-color: wheat;
 }
+input
+{
+    margin: 5px;
+}
+button
+{
+    width: 100px;
+    padding: 2px;
+    background-color: gainsboro;
+    border: 1px solid;
+    border-radius: 4px;
+}
+
+#exam
+{
+    margin: 15px;
+}*/
+
